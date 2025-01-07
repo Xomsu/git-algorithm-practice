@@ -1,0 +1,32 @@
+명령어 1) git add .
+
+error 1)
+fatal: detected dubious ownership in repository at 'E:/HRs/porjects/algorithms'
+'E:/HRs/porjects/algorithms' is on a file system that does not record ownership
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory E:/HRs/porjects/algorithms
+
+
+
+해결방법 ) 제시되는 명령어 그대로 입력
+
+
+warning 1) warning: in the working copy of 'READEME.md', LF will be replaced by CRLF the next time Git touches it
+=> 리드미.md의 줄바꿈이 일어날 수 있다는 것. LF to CRLF
+
+
+명령어 2) git commit -m "first commit for main master brach "
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+해결방법) 예시 명령어대로 내 git 정보를 입력
+
+git config --global user.email "niceday317@gmail.com"
+git config --global user.name "Xomsu"
